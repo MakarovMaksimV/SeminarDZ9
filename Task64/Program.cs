@@ -13,7 +13,7 @@ string PrintNumbers(int end, int start)
     {
         return end.ToString();
     }
-    if(end < start)
+    if (end < start)
     {
         return "Числа заданы не верно";
     }
